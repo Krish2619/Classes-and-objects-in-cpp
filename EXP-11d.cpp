@@ -10,7 +10,7 @@ class cube{
     int length ;
 public:
 int inp(){
-     cout << "Enter the height : " ;
+    cout << "Enter the height : " ;
     cin >> height;
     cout << "Enter the width : " ;
     cin >> width;
