@@ -20,12 +20,15 @@ int inp(){
     int volume(){
      int v=height*width*length;
     return v;
+    }
+void display(){
+    int w=volume();
+    cout<< "volume : "<<w;
 }};
 int main(){
     cube cube1;
     cube1.inp();
-    int vol=cube1.volume();
-    cout<< "Volume : "<<vol <<endl;
+    cube1.display();
 }
 
 /*OUTPUT :
